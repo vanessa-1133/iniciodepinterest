@@ -120,6 +120,7 @@ header nav img#pinterest-icon:hover{
 .imagenes{
     columns: 5 200px;
     margin: auto;
+    visibility: visible;
 }
 
 .imagenes .card-image{
@@ -186,4 +187,8 @@ header nav img#pinterest-icon:hover{
     padding: 4px;
     visibility: hidden;
     display: none;
+}
+
+.material-symbols-outlined{
+    cursor: pointer;
 }
